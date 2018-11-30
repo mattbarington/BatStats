@@ -1,0 +1,3 @@
+system_profiler SPPowerDataType | grep -e 'Time' -e 'time'
+system_profiler -detailLevel basic | grep 'Capacity' 
+pmset -g batt
